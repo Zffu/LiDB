@@ -2,6 +2,7 @@ package net.zffu.lidb.database.table;
 
 
 import net.zffu.lidb.types.DataType;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;
 /**
@@ -14,7 +15,7 @@ public class LITable<P> {
     /**
      * <p>The primary key data type.</p>
      */
-    private DataType<P> primaryKey;
+    private @NotNull DataType<P> primaryKey;
 
     /**
      * <p>The entries contained in the table.</p>

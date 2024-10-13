@@ -2,6 +2,7 @@ package net.zffu.lidb.server.database;
 
 import net.zffu.lidb.database.LIDatabase;
 import net.zffu.lidb.database.table.LITable;
+import org.jetbrains.annotations.Nullable;
 
 /**
  * The server implementation of the {@link net.zffu.lidb.database.LIDatabase}.
@@ -13,7 +14,7 @@ public class LiDB extends LIDatabase {
      * <p>Creates a new {@link LiDB} with the provided tables.</p>
      * @param tables the tables.
      */
-    public LiDB(LITable<?>[] tables) {
+    public LiDB(@Nullable LITable<?>[] tables) {
         this.tables = tables;
     }
 
