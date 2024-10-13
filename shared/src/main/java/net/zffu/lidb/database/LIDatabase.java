@@ -8,6 +8,6 @@ import net.zffu.lidb.database.table.LITable;
  */
 public class LIDatabase {
 
-    private LITable[] tables;
+    protected LITable[] tables;
 
 }
