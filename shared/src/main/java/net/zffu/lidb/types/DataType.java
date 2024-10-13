@@ -9,6 +9,12 @@ import org.jetbrains.annotations.NotNull;
 public interface DataType<K> {
 
     /**
+     * <p>Gets the identifier of the data type. Is used in the binary</p>
+     * @return the identifier.
+     */
+    byte getIdentifier();
+
+    /**
      * <p>Converts the bits equivalent to the output data type.</p>
      * @param i the bits equivalent of the data type.
      * @return the converted object as K.
