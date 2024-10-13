@@ -1,4 +1,4 @@
-package net.zffu.lidb;
+package net.zffu.lidb.database;
 
 /**
  * <p>A database instance represented in the LiDB library.</p>
