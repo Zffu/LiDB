@@ -16,4 +16,17 @@ public interface LITable<P> {
      */
     @NotNull DataType<P> getPrimaryDataType();
 
+    /**
+     * <p>Adds an entry inside the database.</p>
+     * @param key the primary key.
+     * @param objects the objects as a list.
+     */
+    void addEntry(@NotNull P key, @NotNull Object... objects);
+
+    /**
+     * <p>Removes an entry inside the database if it exists.</p>
+     * @param key the primary key.
+     */
+    void removeEntry(@NotNull P key);
+
 }
