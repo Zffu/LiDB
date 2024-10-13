@@ -9,6 +9,7 @@
         <version>1.0.0</version>
     </parent>
 
+    <groupId>net.zffu.lidb</groupId>
     <artifactId>shared</artifactId>
 
     <properties>
