@@ -21,12 +21,4 @@ public class LITable<P> {
      */
     private HashMap<P, Object[]> entries = new HashMap<>();
 
-    /**
-     * <p>Constructs a new {@link LITable}.</p>
-     * @param primaryKey the primary key data type, is used for conversion.
-     */
-    public LITable(DataType<P> primaryKey) {
-        this.primaryKey = primaryKey;
-    }
-
 }

@@ -10,12 +10,4 @@ public class LIDatabase {
 
     private LITable[] tables;
 
-    /**
-     * <p>Creates a new {@link LIDatabase} with predefined tables.</p>
-     * @param tables the tables.
-     */
-    public LIDatabase(LITable[] tables) {
-        this.tables = tables;
-    }
-
 }
